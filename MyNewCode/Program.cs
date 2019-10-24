@@ -33,7 +33,7 @@ namespace AzureTableStorage
         private static void CreateAzureStorageTable()
         {
             storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageCon"));
-
+            //hence
 
         }
 
